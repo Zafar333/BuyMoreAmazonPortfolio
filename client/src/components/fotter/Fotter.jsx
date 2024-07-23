@@ -60,9 +60,9 @@ const Fotter = () => {
 
             <label className='text-white font-Poppins text-[24px]'>Social Media</label>
             <label className='text-white font-Poppins text-[16px]'>E-COMMERCE HIVE</label>
-                  <div className='px-[20px] flex gap-[40px]'>
+                  <div className='px-[20px] flex gap-[30px]'>
                     {/* <Button href='https://www.facebook.com/profile.php?id=61561000816583'> */}
-                  <a target="_blank" href="https://www.facebook.com/profile.php?id=61561000816583" className='cursor-pointer'><PiFacebookLogoBold className='text-white text-[25px]'  /></a>
+                  <a target="_blank" href="https://www.facebook.com/profile.php?id=61563393445955" className='cursor-pointer'><PiFacebookLogoBold className='text-white text-[25px]'  /></a>
                   {/* </Button> */}
                   <CgInstagram className='text-white text-[25px]' />
 
