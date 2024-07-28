@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { Button, Form, Input, message } from 'antd';
+import { toast } from 'react-toastify';
 const { TextArea } = Input;
 
 
@@ -8,10 +9,41 @@ const { TextArea } = Input;
 const ContactUsForm = () => {
     const onFinish = (values) => {
         console.log('Success:', values);
+        sendMailFun(values)
       };
       const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
+        toast.error("You can't send empty email")
       };
+
+      // send mail fun is start from here
+      const sendMailFun=async(data)=>{
+        console.log("data",data)
+        try{
+          const response=await fetch("http://localhost:4000/sendMail", {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+          });
+          if(response?.status==200){
+            // console.log("email response",await responsse.json())
+            console.log("hello",response)
+            toast.success("Email send Successfully")
+          }
+
+        }catch(error){
+          // console.log("mailfun error",error)
+          toast.error(error)
+        }
+
+
+      }
+
+      // send mail fun is end here
+
+
   return (
     // <div className=' '>
     <div className='flex justify-center border border-black '>

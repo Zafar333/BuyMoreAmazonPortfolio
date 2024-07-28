@@ -10,11 +10,11 @@ const Home = () => {
         <div className='flex flex-col gap-[20px]'>
         <div className=' text-center '><label className='text-yellow text-[16px] font-bold xs:text-[18px] sm:text-[22px] font-Poppins p-[8px] px-[15px] rounded-md'>E-COMMERCE HIVE & SOLUTIONS</label></div>
         <div className='text-center'>
-          <label className='text-white text-[16px] xs:text-[22px] sm:text-[24px] font-Poppins'>Where Ideas Ignite and
+          <label className='text-white text-[17px] xs:text-[22px] sm:text-[24px] font-Poppins'>Where Ideas Ignite and
             Businesses Thrive.</label>
         </div>
         <div className='max-w-full sm:max-w-[700px] sm:m-auto'>
-          <label className='text-[18px] text-[#c2c2c2] font-Poppins'>
+          <label className='text-[14px] md:text-[18px] text-[#c2c2c2] font-Poppins'>
           E-COMMERCE HIVE Private Limited is a dynamic and innovative company dedicated to providing comprehensive solutions in E-commerce, and Incubation. With a passion for excellence and a commitment to fostering growth, E-COMMERCE HIVE has established itself as a trusted partner for businesses and individuals seeking success in the digital age.
           </label>
         </div>
