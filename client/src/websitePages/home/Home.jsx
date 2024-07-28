@@ -107,8 +107,7 @@ const Home = () => {
       {/* ContactUs section is start from here */}
       <div id='contactus' className='mt-[100px] flex flex-col bg-lightGray py-[100px]  px-[10px] xs:px-[50px] sm:px-[100px]'>
         <div className='font-Poppins text-[24px] text-center' >CONTACT US</div>
-        <div className='text-center text-[30px] text-yellow mt-[20px] mb-[40px]'>Let's Get in Touch And Make <br /> Magic Together.</div>
-
+        <div className='text-center text-[30px] text-yellow mt-[20px] mb-[40px]'>Let&apos;s Get in Touch And Make <br /> Magic Together.</div>
       <ContactUsForm />
       </div>
       {/* ContactUs section is end here */}
